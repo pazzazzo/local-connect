@@ -1,0 +1,38 @@
+{
+  "name": "local-connect",
+  "version": "0.0.2",
+  "description": "Create a connection between all your app on the same network",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pazzazzo/local-connect.git"
+  },
+  "keywords": [
+    "local",
+    "connect",
+    "network",
+    "node",
+    "js",
+    "app",
+    "communication",
+    "com",
+    "communicate"
+  ],
+  "author": "pazzazzo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pazzazzo/local-connect/issues"
+  },
+  "homepage": "https://github.com/pazzazzo/local-connect#readme",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "events": "^3.3.0",
+    "http": "^0.0.1-security",
+    "socket.io": "^4.6.1",
+    "socket.io-client": "^4.6.1",
+    "uuid": "^9.0.0"
+  }
+}
